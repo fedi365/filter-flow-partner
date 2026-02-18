@@ -57,8 +57,8 @@ const Index = () => {
       {/* Hero */}
       <section className="relative bg-primary text-primary-foreground overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,hsl(185_70%_38%/0.3),transparent_70%)]" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,hsl(210_75%_40%/0.2),transparent_60%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,hsl(78_53%_49%/0.3),transparent_70%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,hsl(24_74%_40%/0.2),transparent_60%)]" />
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 relative">
           <motion.div
@@ -83,14 +83,14 @@ const Index = () => {
               <Button
                 asChild
                 size="lg"
-                className="bg-accent text-accent-foreground hover:bg-accent/90 text-base px-6"
+                className="bg-white text-primary font-semibold hover:bg-white/90 hover:scale-105 hover:shadow-lg transition-all duration-300 text-base px-8 rounded-full"
               >
                 <Link to="/contact">{t.hero.cta1}</Link>
               </Button>
               <Button
                 asChild
                 size="lg"
-                className="bg-accent text-accent-foreground hover:bg-accent/90 text-base px-6"
+                className="bg-white/10 text-white border-2 border-white/40 backdrop-blur-sm font-semibold hover:bg-white/20 hover:border-white/70 hover:scale-105 transition-all duration-300 text-base px-8 rounded-full"
               >
                 <Link to="/contact">{t.hero.cta2}</Link>
               </Button>
