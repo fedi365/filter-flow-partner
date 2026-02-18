@@ -204,7 +204,7 @@ export const translations = {
       },
       info: {
         title: "Coordonnées",
-        address: "Zone Industrielle, Alger, Algérie",
+        address: "Zone Industrielle, Tunis, Tunisie",
         phone: "+213 XX XX XX XX",
         email: "contact@filtrationpro.dz",
         hours: "Dim - Jeu : 8h00 - 17h00",
@@ -416,7 +416,7 @@ export const translations = {
       },
       info: {
         title: "Contact Information",
-        address: "Industrial Zone, Algiers, Algeria",
+        address: "Industrial Zone, Tunis, Tunisia",
         phone: "+213 XX XX XX XX",
         email: "contact@filtrationpro.dz",
         hours: "Sun - Thu: 8:00 AM - 5:00 PM",

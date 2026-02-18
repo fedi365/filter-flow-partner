@@ -391,7 +391,7 @@ const Index = () => {
               <Button
                 asChild
                 size="lg"
-                className="bg-accent text-accent-foreground hover:bg-accent/90 text-base px-8"
+                className="bg-white text-primary font-semibold hover:bg-white/90 hover:scale-105 hover:shadow-lg transition-all duration-300 text-base px-8 rounded-full"
               >
                 <Link to="/contact">{t.ctaFinal.cta}</Link>
               </Button>
